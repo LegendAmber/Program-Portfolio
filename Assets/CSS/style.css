@@ -1,1 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+html{
+    color-scheme: dark light;
+}
 
+#title{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Gugi', cursive;
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Download-Abstract-Color-Background.jpg");
+    background-position: center center;
+    box-shadow: 0px -100px 100px rgba(0, 0, 0, 1) inset, 0px 50px 50px rgba(0, 0, 0, 1);
+}
+#title h1{
+    font-size: 5rem;
+}
+#title h4{
+    font-size: 2.5rem;
+}
